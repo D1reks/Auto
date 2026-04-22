@@ -23,5 +23,11 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x gradlew
 
+      - name: Debug - check files
+        run: |
+          ls -la gradlew
+          file gradlew
+          head -5 gradlew
+
       - name: Run tests
-        run: ./gradlew test
+        run: sh gradlew test
