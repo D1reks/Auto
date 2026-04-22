@@ -1,0 +1,14 @@
+style:
+  MagicNumber:
+    active: false 
+  MaxLineLength:
+    active: true
+    maxLineLength: 120
+
+performance:
+  SpreadOperator:
+    active: true
+
+potential-bugs:
+  DuplicateCaseInWhenExpression:
+    active: true
