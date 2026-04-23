@@ -1,11 +1,3 @@
-name: Run Tests
-
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
 jobs:
   checkMerge:
     runs-on: ubuntu-latest
